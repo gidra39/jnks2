@@ -1,4 +1,4 @@
-FROM python: 3.6.15-slim-buster
+FROM python: 3.6.15-slim
 
 WORKDIR /home/jenkins/pytest
 COPY app.py app.py
